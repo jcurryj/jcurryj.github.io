@@ -1,0 +1,250 @@
+body {
+      margin: 0;
+      padding: 0;
+      background: black;
+    }
+
+.nav {
+	background-color: black;
+	overflow: hidden;
+	width: 100%;
+	padding-bottom: 16px;
+    
+	
+    
+    
+}
+.nav ul {
+      list-style: none;
+      background-color: black;
+      text-align: center;
+      padding: 0;
+      margin: 0;
+
+    }
+.nav li {
+    border: 1px solid white;    
+      height: 50px;
+      line-height: 50px;
+   
+      
+}
+
+
+.nav ul li a {
+text-decoration: none; 
+display: block;
+	font-weight: normal;
+    text-transform: uppercase;
+}
+
+.nav ul a:link {
+    color: #fff;
+  }
+.nav ul a:visited {
+    color: #fff;
+  }
+.nav ul a:focus {
+	color:#FC6
+	border-color: #fff;
+}
+.nav ul a:hover {
+    color: #fc6;
+	border-color: #fff;
+  }
+.nav ul a:active {
+	color:#F00;
+}
+
+img {
+	display: block;
+	margin: auto;
+    border: 3px solid white;
+    max-width: 100%;
+} 
+    
+h1 {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
+	font-weight: normal;
+
+    margin-top: 5px;
+    padding: 4px:
+}
+
+p {
+	color: white;
+	text-decoration: none;
+	font-size: 4em;
+	text-align: center;
+    border-top:1px solid #fc6;
+    padding-top: 5px;   
+    padding-bottom: 0px;
+    
+} 
+
+p#contact {
+    color:white;
+    text-align: center;
+    border-top: 1px solid #fc6;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+    }
+div.gallery {
+	margin: 5px;
+	border: 1px solid white; 
+	float: left; 
+	width: 180px;
+	
+}
+
+div.gallery iframe {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center; 
+}
+
+iframe
+{
+	display: block;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	border: 1px solid white;
+}	
+
+.music ul  {color:white; 
+              text-align: left;
+                text-decoration: none;
+                font-size: 40px;
+                list-style-type: none;
+                border-left: 1px solid #fc4;
+                 border-bottom: 1px solid #fc4;
+                     border-top: 1px solid #fc4;
+                padding-bottom; 10px;
+                
+               
+                
+}
+    
+.music ul a:link {
+    color: #fff; 
+              text-align: center;
+                text-decoration: none;
+                font-size: 40px;
+                list-style-type: none;
+}
+    
+    #music li {padding:1px;
+}
+
+    
+.special p {
+	color: white;
+	text-decoration: none;
+	font-size: 40px;
+	text-align: left;
+    border-bottom: 1px solid #fc4; 
+}
+
+  @media screen and (min-width: 600px) {
+ .nav li {
+    width: 120px;
+    border: 1px solid white;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+  .nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+}
+
+img {
+	display: block;
+	margin: auto;
+    border: 3px solid white;
+    max-width: 100%;
+} 
+    
+h1 {
+	font-size: 1em;
+	color: white;
+	text-align: center;
+	letter-spacing: 4px;
+	font-weight: normal;
+
+    margin-top: 5px;
+    padding: 4px:
+}
+
+p {
+	color: white;
+	text-decoration: none;
+	font-size: 0.9em;
+	text-align: center;
+    border-top:1px solid #fc6;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    
+} 
+
+p#contact {
+    color:white;
+    text-align: center;
+    border-top: 1px solid #fc6;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    
+    }
+div.gallery {
+	margin: 5px;
+	border: 1px solid white; 
+	float: left; 
+	width: 180px;
+	
+}
+
+div.gallery iframe {
+	width: 100%;
+	height: auto;
+}
+
+div.desc {
+	padding: 15px;
+	text-align: center; 
+}
+
+iframe
+{
+	display: block;
+	width: 100%;
+	max-width: 700px;
+	margin: 0 auto;
+	margin-bottom: 3em;
+	border: 1px solid white;
+}	
+
+
+                
+#special p {
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	text-align: center;
+}
+
+span {
+    padding: 1px;
+    border: 1px solid #fc6;
+    display: inline-block;
+}
