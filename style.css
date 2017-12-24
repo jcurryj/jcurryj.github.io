@@ -121,29 +121,27 @@ iframe
 	border: 1px solid white;
 }	
 
-.music ul  {color:white; 
-              text-align: left;
+.music ul li {color:gold; 
+                text-align: center;
                 text-decoration: none;
-                font-size: 40px;
+                font-size: 15px;
                 list-style-type: none;
-                border-left: 1px solid #fc4;
-                 border-bottom: 1px solid #fc4;
-                     border-top: 1px solid #fc4;
-                padding-bottom; 10px;
+                padding-bottom; 25px;
+                padding-top; 10px;
                 
                
                 
 }
     
 .music ul a:link {
-    color: #fff; 
-              text-align: center;
+    color: gold; 
+              
                 text-decoration: none;
-                font-size: 40px;
+                font-size: 15px;
                 list-style-type: none;
 }
     
-    #music li {padding:1px;
+    #music li {padding-top:200px;
 }
 
     
