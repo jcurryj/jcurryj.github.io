@@ -1,248 +1,324 @@
+
+
 body {
-      margin: 0;
-      padding: 0;
-      background: black;
-    }
-
-.nav {
-	background-color: black;
-	overflow: hidden;
-	width: 100%;
-	padding-bottom: 16px;
-    
-	
-    
-    
-}
-.nav ul {
-      list-style: none;
-      background-color: black;
-      text-align: center;
-      padding: 0;
-      margin: 0;
-
-    }
-.nav li {
-    border: 1px solid white;    
-      height: 50px;
-      line-height: 50px;
-   
-      
-}
-
-
-.nav ul li a {
-text-decoration: none; 
-display: block;
-	font-weight: normal;
-    text-transform: uppercase;
-}
-
-.nav ul a:link {
-    color: #fff;
-  }
-.nav ul a:visited {
-    color: #fff;
-  }
-.nav ul a:focus {
-	color:#FC6
-	border-color: #fff;
-}
-.nav ul a:hover {
-    color: #fc6;
-	border-color: #fff;
-  }
-.nav ul a:active {
-	color:#F00;
-}
-
-img {
-	display: block;
-	margin: auto;
-    border: 3px solid white;
-    max-width: 100%;
-} 
-    
-h1 {
-	font-size: 1em;
-	color: white;
-	text-align: center;
-	letter-spacing: 4px;
-	font-weight: normal;
-
-    margin-top: 5px;
-    padding: 4px:
-}
-
-p {
-	color: white;
-	text-decoration: none;
-	font-size: 4em;
-	text-align: center;
-    border-top:1px solid #fc6;
-    padding-top: 5px;   
-    padding-bottom: 0px;
-    
-} 
-
-p#contact {
-    color:white;
+    background: beige;
     text-align: center;
-    border-top: 1px solid #fc6;
-    padding-top: 10px;
-    padding-bottom: 5px;
+font-family: 'Nanum Gothic', sans-serif;}
+
+#main-wrapper {
+    width: 960px;
+    margin: 0 auto;
     
-    }
-div.gallery {
-	margin: 5px;
-	border: 1px solid white; 
-	float: left; 
-	width: 180px;
-	
 }
 
-div.gallery iframe {
-	width: 100%;
-	height: auto;
-}
+a {text-decoration: none;
+color: black;}
 
-div.desc {
-	padding: 15px;
-	text-align: center; 
-}
+.newnav {text-align:left;}
 
-iframe
-{
-	display: block;
-	width: 100%;
-	max-width: 700px;
-	margin: 0 auto;
-	margin-bottom: 3em;
-	border: 1px solid white;
-}	
-
-.music ul li {color:gold; 
-                text-align: center;
-                text-decoration: none;
-                font-size: 15px;
-                list-style-type: none;
-                padding-bottom; 25px;
-                padding-top; 10px;
-                
-               
-                
-}
-    
-.music ul a:link {
-    color: gold; 
-              
-                text-decoration: none;
-                font-size: 15px;
-                list-style-type: none;
-}
-    
-    #music li {padding-top:200px;
-}
-
-    
-.special p {
-	color: white;
-	text-decoration: none;
-	font-size: 40px;
-	text-align: left;
-    border-bottom: 1px solid #fc4; 
-}
-
-  @media screen and (min-width: 600px) {
- .nav li {
-    width: 120px;
-    border: 1px solid white;
-    height: 50px;
-    line-height: 50px;
-    font-size: 1.4em;
-  }
-  .nav li {
-    display: inline-block;
-    margin-right: -4px;
-  }
-}
-
-img {
-	display: block;
-	margin: auto;
-    border: 3px solid white;
-    max-width: 100%;
-} 
-    
-h1 {
-	font-size: 1em;
-	color: white;
-	text-align: center;
-	letter-spacing: 4px;
-	font-weight: normal;
-
-    margin-top: 5px;
-    padding: 4px:
-}
-
-p {
-	color: white;
-	text-decoration: none;
-	font-size: 0.9em;
-	text-align: center;
-    border-top:1px solid #fc6;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    
-} 
-
-p#contact {
-    color:white;
+.contactinfo {margin: 0 auto;
+text-align: center;}
+.contactinfo p {
+    margin: 0 auto;
     text-align: center;
-    border-top: 1px solid #fc6;
-    padding-top: 10px;
-    padding-bottom: 5px;
+padding-top:50px;}
+
+.contactinfo ul li {margin: 0 auto; 
+text-align: center;
+padding-right: 65px;}
+
+h2 {padding-top:20px;
+padding-bottom: 40px;}
+
+#headline {text-align:center;
+}
+
+#headline h1 {padding: 50px 0 15px 0;
+}
+
+
+.flex-grid {
+    display: flex;
+    border-bottom: 2px solid black;
+    padding-top: 30px;
     
+}
+
+h1 {text-align:center;
+padding-bottom:50px;
+padding-top: 50px;}
+
+.col {
+    flex:1;
+    
+}
+
+.music-thing {
+padding-bottom:40px;
+
+}
+
+.band-name {
+text-align:left;
+padding-left:91px;
+font-weight: 800
+}
+
+
+ul {margin: 0 auto;
+    list-style-type: none;
+text-align:center;
+padding-bottom: 100px;
+padding-top: 50px;
+border-bottom: 2px solid black;}
+ul li {padding-top: 10px;
+    margin: 0 auto;
+text-align: center;}
+
+.music-thing img{
+width:300px;
+height:300px;
+
+padding-bottom: 15px;   
+}
+.work-title {
+text-align: left;
+padding-left:91px;
+}
+.credit {
+text-align:left;
+padding-left:91px;
+padding-top: 10px;
+}
+
+.listen-link {
+font-weight: 900;
+text-align: left;
+padding-left:91px;
+}
+
+.listen-link a p {padding-top: 0px;
+text-decoration: none;}
+
+.video-thing {padding-bottom: 40px;}
+.video-thing iframe {
+    width: 300px;
+    height: 169px;
+}
+
+
+
+#bio {text-align:center;
+border-bottom: 2px solid black;}
+
+#bio p {
+padding-bottom: 80px;}
+
+
+.featured{
+display: flex;
+}
+
+.column {flex: 50%;
+    padding: 10px;}
+
+
+
+.flexcontainer {display: flex;
+height: 42px;
+justify-content: space-between;
+align-content: space-between;
+}
+
+.logo1 {text-align: left;
+height: 100px;
+width: 400px;
+}
+
+.nav1 {display: flex; margin: auto;
+height: 100px;
+width: 160px;
+justify-content: center;    
+}
+
+.widget1 {display: flex; margin: auto;
+height: 100px;
+width: 160px;
+justify-content: center;    
+padding-top: 20px;}
+
+.featuredcontainer {display:flex;
+height:345px;
+
+margin-top:5px}
+
+.featuredvideo {margin:auto;
+border: 5px solid purple;
+}
+
+.videocontainer {display: flex;
+justify-content: center;
+background: lightyellow;
+border-top: 2px solid;}
+
+.musicontainer {display: flex;
+justify-content: center;
+border: 2px solid white;
+background:lightblue;}
+
+.music {margin: auto;
+padding: 10px;}
+
+header {height:10px;}
+
+.flex-vid {flex-direction: column;
+}
+
+.flex-vid ul {
+    border: 10px mistyrose;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+flex-vid li {
+    flex: 1;
+}
+
+
+
+.container {
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    grid-column-gap: 5px;
+    grid-row-gap: 5px
+    ;
     }
-div.gallery {
-	margin: 5px;
-	border: 1px solid white; 
-	float: left; 
-	width: 180px;
-	
+
+.grid {
+  background-color: #444;
+  color: #fff;
+  padding: 25px;
+  
+    text-align: center;
 }
 
-div.gallery iframe {
-	width: 100%;
-	height: auto;
+.img {border-width: 1px;
+border-color: black}
+    
+
+.header {
+    grid-column: 1 / 5;
+    grid-row: 1 / 2;
+    background-color:wheat;
+
 }
 
-div.desc {
-	padding: 15px;
-	text-align: center; 
+.logo {    
+    background-color: magenta;
+grid-column: 1 / 2;
+    grid-row: 2 / 3;
+    
 }
 
-iframe
-{
-	display: block;
-	width: 100%;
-	max-width: 700px;
-	margin: 0 auto;
-	margin-bottom: 3em;
-	border: 1px solid white;
-}	
-
-
-                
-#special p {
-	color: white;
-	text-decoration: none;
-	font-size: 30px;
-	text-align: center;
+.contacthp {    
+    background-color: blueviolet;
+grid-column: 2 / 4;
+    grid-row: 2 / 3;
 }
 
-span {
-    padding: 1px;
-    border: 1px solid #fc6;
-    display: inline-block;
+
+.widgets {    
+    background-color: yellow;
+grid-column: 4 / 5;
+    grid-row: 2 / 3;
 }
+
+.featuredvideo {    
+    background-color: pink;
+    grid-column: 1 / 5;
+grid-row: 3 / 7;
+;
+
+}
+
+.mainimage {
+    background-color: orange;
+grid-column: 1 / 3;
+grid-row: 7 / 8;
+
+
+}
+
+.calendar {
+    background-color: slategrey;
+grid-column: 3 / 5;
+grid-row: 7 / 8; 
+    
+    
+}
+
+
+.bio {
+    background-color: cadetblue;
+grid-column: 1 / 5;
+grid-row: 9 / 12;    
+    
+}
+
+.contact {
+background-color: darkgreen;
+grid-column: 1 / 5;
+grid-row: 12 / 13;  
+    
+}
+
+.player {    
+    color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+grid-row: span 1;
+grid-column:span 2;
+}
+
+
+.video {         
+background-color: rosybrown;
+grid-column: 1 / 5;
+grid-row: 13/ 14;
+
+}
+
+.videolist {list-style-type: none;
+text-align: center;
+margin:auto;
+}
+
+.videolist li {display: inline block; padding: 10px;
+float: left;
+}
+
+.widgetlist {list-style-type: none;
+text-align: center;
+margin: 0;}
+
+.widgetlist li {display: inline block;
+float: left;
+padding: 15px;}
+
+
+
+.lessons {    
+background-color: rebeccapurple;
+grid-column: 1 / 5;
+grid-row: 15 / 16;
+}
+
+
+.footer {
+
+    }
+.footer p {color: deepskyblue;}
